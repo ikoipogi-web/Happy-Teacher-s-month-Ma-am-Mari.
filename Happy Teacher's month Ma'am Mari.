@@ -1,0 +1,330 @@
+Happy Teacher's month Ma'am Mari.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teacher's Month, Ma'am Mari!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="art">
+
+            <div class="badge">🌸 TEACHER'S MONTH 🌸</div>
+
+            <h1>Tribute to Our Amazing Teacher</h1>
+
+            <h2>Ma'am Mari 💐</h2>
+
+            <p class="intro">
+                Thank you, Ma'am Mari, for being an amazing teacher who
+                inspires us to learn, grow, and become better students.
+            </p>
+
+            <div class="divider">✦ ✦ ✦</div>
+
+            <div class="message-box">
+                <h3>💖 A Special Message for You</h3>
+
+                <p>
+                    Thank you for your patience, kindness, and dedication.
+                    You always take the time to guide us and help us
+                    understand every lesson.
+                </p>
+
+                <p>
+                    We are grateful for every lesson, every reminder,
+                    every activity, and every moment you spend teaching us.
+                    Your effort and hard work will always be appreciated.
+                </p>
+
+                <p>
+                    Especially in coding and HTML, thank you for patiently
+                    teaching us even when our codes don't work the way
+                    we expect them to. Your guidance helps us improve
+                    and learn from our mistakes.
+                </p>
+            </div>
+
+            <div class="qualities">
+
+                <div class="card">
+                    <div class="icon">📚</div>
+                    <h3>Patient</h3>
+                    <p>Thank you for patiently teaching and guiding us.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">💡</div>
+                    <h3>Inspiring</h3>
+                    <p>You inspire us to keep learning and improving.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">❤️</div>
+                    <h3>Caring</h3>
+                    <p>Your kindness makes learning more meaningful.</p>
+                </div>
+
+            </div>
+
+            <div class="quote">
+                <p>
+                    "A great teacher doesn't just teach lessons,
+                    but also leaves a lasting impact on the lives
+                    of their students."
+                </p>
+            </div>
+
+            <button onclick="showMessage()">💐 Click for a Surprise 💐</button>
+
+            <p id="surprise"></p>
+
+            <div class="divider">✦ ✦ ✦</div>
+
+            <p class="thankyou">
+                Thank you, Ma'am Mari! ❤️
+            </p>
+
+            <p class="closing">
+                With love and gratitude from your students.
+            </p>
+
+            <p class="footer">
+                Happy Teacher's Month 2026! 🌷
+            </p>
+
+        </div>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("surprise").innerHTML =
+                "🌷 You are one of the teachers we will always remember. Thank you for everything, Ma'am Mari! ❤️";
+        }
+    </script>
+
+</body>
+</html>
+
+
+body {
+    font-family: cursive, fantasy;
+    background-color: bisque;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #7349e6;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgb(73, 3, 119);
+}
+
+/* Content */
+.art {
+    color: #003d75;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Teacher's Month Badge */
+.badge {
+    display: inline-block;
+    background-color: #f154b6;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Main title */
+h1 {
+    color: #ffe6f5;
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #3b1475;
+}
+
+/* Teacher name */
+h2 {
+    color: #ffd1ec;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+/* Introduction */
+.intro {
+    color: white;
+    font-size: 20px;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+/* Divider */
+.divider {
+    color: #ffd700;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+/* Message box */
+.message-box {
+    background-color: #fff5fb;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 25px auto;
+    max-width: 750px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.message-box h3 {
+    color: #d62f91;
+    font-size: 25px;
+}
+
+.message-box p {
+    color: #333333;
+    font-size: 17px;
+}
+
+/* Three cards */
+.qualities {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card .icon {
+    font-size: 40px;
+}
+
+.card h3 {
+    color: #7349e6;
+    font-size: 22px;
+}
+
+.card p {
+    color: #444444;
+    font-size: 15px;
+}
+
+/* Quote */
+.quote {
+    background-color: #ffd6ec;
+    padding: 20px;
+    margin: 30px auto;
+    border-left: 7px solid #f154b6;
+    border-radius: 15px;
+    max-width: 700px;
+}
+
+.quote p {
+    color: #7b2064;
+    font-size: 19px;
+    font-style: italic;
+}
+
+/* Button */
+button {
+    background-color: #f154b6;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-family: cursive;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #d62f91;
+    transform: scale(1.05);
+}
+
+/* Surprise message */
+#surprise {
+    color: #fff5fb;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Thank you */
+.thankyou {
+    color: #ffe600;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.closing {
+    color: white;
+    font-size: 18px;
+}
+
+.footer {
+    color: #ffd1ec;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+/* Responsive design for phone */
+@media (max-width: 600px) {
+
+    .container {
+        width: 80%;
+        padding: 25px;
+        border-radius: 30px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    .intro {
+        font-size: 17px;
+    }
+
+    .message-box {
+        padding: 18px;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
